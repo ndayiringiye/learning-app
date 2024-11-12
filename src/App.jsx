@@ -1,10 +1,13 @@
 import React from 'react'
+import NavBar from './Components/NavBar'
+import Hello from './Components/Hello'
 
 export default function App() {
   return (
     <div>
-
-      <h1 className='text-center text-green-600 text-3xl font-bold font-serif'>morning david</h1>
+    <NavBar/>
+    <Hello/>
+    
     </div>
   )
 }
